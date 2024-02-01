@@ -186,3 +186,21 @@ body {
   }
   
 }
+@media (min-width: 1441px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 200px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 210px;
+  }
+  
+}
