@@ -148,3 +148,41 @@ body {
   }
   
 }
+
+@media (min-width: 1080px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 970px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 970px;
+  }
+  
+}
+
+@media (min-width: 1440px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 220px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 220px;
+  }
+  
+}
