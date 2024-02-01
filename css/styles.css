@@ -71,3 +71,53 @@ body {
   position: absolute;
   bottom: 280px;
 }
+
+@media (max-width: 768px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 300px;
+  }
+  
+}
+
+@media (max-width: 390px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 185px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 190px;
+  }
+  
+}
+
+@media (max-width: 320px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 50px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+  }
+  
+}
