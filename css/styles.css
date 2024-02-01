@@ -73,6 +73,25 @@ body {
 }
 
 
+@media (max-width: 1339px ) {
+  #titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 220px;
+  }
+  #boton-cambiar {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 220px;
+  }
+  
+}
+
 @media (min-width: 320px ) {
   #titulo {
     width: 100%;
