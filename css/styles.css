@@ -73,26 +73,26 @@ body {
 }
 
 
-@media (min-width: 320px ) {
+@media screen and (max-width: 800px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
     text-align: center;
     font-family: 'Courgette', cursive;
     position: absolute;
-    top: 50px;
+    top: 200px;
   }
   #boton-cambiar {
     width: 180px;
     height: 50px;
     font-size: 20px;
     position: absolute;
-    bottom: 50px;
+    bottom: 200px;
   }
   
 }
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -109,9 +109,9 @@ body {
     bottom: 100px;
   }
   
-}
+} */
 
-@media (min-width: 390px ) {
+/* @media (min-width: 390px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -128,9 +128,9 @@ body {
     bottom: 190px;
   }
   
-}
+} */
 
-@media (min-width: 768px ) {
+/* @media (min-width: 768px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -147,9 +147,9 @@ body {
     bottom: 280px;
   }
   
-}
+} */
 
-@media (min-width: 1080px ) {
+/* @media (min-width: 1080px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -166,9 +166,9 @@ body {
     bottom: 970px;
   }
   
-}
+} */
 
-@media (min-width: 1440px ) {
+/* @media (min-width: 1440px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -185,8 +185,8 @@ body {
     bottom: 220px;
   }
   
-}
-@media (min-width: 1441px ) {
+} */
+/* @media (min-width: 1441px ) {
   #titulo {
     width: 100%;
     font-weight: bold;
@@ -203,4 +203,4 @@ body {
     bottom: 210px;
   }
   
-}
+} */
